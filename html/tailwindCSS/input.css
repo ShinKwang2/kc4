@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+}
+
+@layer components {
+  .btn {
+    @apply rounded border px-2 hover:bg-slate-500 hover:text-white;
+  }
+
+  .btn-primary {
+    @apply rounded px-2 bg-blue-500 text-white 
+    hover:bg-blue-400 shadow-md
+    focus:ring-blue-400 focus:ring-opacity-75;
+  }
+
+  .btn-danger {
+    @apply rounded px-2 bg-red-500 text-white hover:bg-red-400;
+  }
+}
